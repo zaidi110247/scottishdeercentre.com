@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light sky blue for the background */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #006400; /* Dark green color for the header */
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff !important;
+}
+
+/* Header Section */
+#header {
+    background-color: #228B22; /* Forest green color for the header section */
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #006400; /* Dark green color for the footer */
+    color: white;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+/* Button Styles */
+.btn-outline-dark {
+    border-color: #006400;
+    color: #006400;
+}
+
+.btn-outline-dark:hover {
+    background-color: #006400;
+    color: #fff;
+}
+
+.btn-dark {
+    background-color: #006400;
+    border-color: #006400;
+}
+
+/* Education Section */
+#education .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#education .card-title {
+    color: #228B22; /* Forest green for card titles */
+}
+
+#education .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Shopping & Food Section */
+#food .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#food .card-title {
+    color: #228B22; /* Forest green for card titles */
+}
+
+#food .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .fixed-size-img {
+        height: 150px; /* Adjust height for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .fixed-size-img {
+        height: 100px; /* Adjust height for extra small screens */
+    }
+}
